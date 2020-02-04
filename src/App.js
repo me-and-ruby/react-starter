@@ -1,13 +1,19 @@
 import React from 'react';
+import {Navbar, NavbarBrand} from "reactstrap";
 
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello React</p>
-      </header>
+
+      <Navbar dark color="primary" >
+        <div className="container">
+          <NavbarBrand href="/">MyBrand</NavbarBrand>
+        </div>
+
+      </Navbar>
+      
     </div>
   );
 }
