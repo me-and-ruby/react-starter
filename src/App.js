@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from "./components/Menu"
 import {Navbar, NavbarBrand} from "reactstrap";
 
 
@@ -13,6 +14,7 @@ function App() {
         </div>
 
       </Navbar>
+      <Menu/>
       
     </div>
   );
